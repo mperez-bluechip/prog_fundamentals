@@ -10,6 +10,7 @@ def mix_and_cook():
     print('Cooking the other side')
 
 def make_omelette():
+    global cheese
     cheese = 'swiss'
     mix_and_cook()
     omelette = 'a {} omelette'.format(cheese)
