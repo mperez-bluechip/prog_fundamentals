@@ -17,15 +17,38 @@
 #         print('Taking off {}x{} {} jeans'.format(self.waist, self.length, self.color))
 #         self.wearing = False
 
-""" Two Names, One Shirt """
+# """ Two Names, One Shirt """
+#
+# class shirt:
+#
+#     def __init__(self):
+#         self.clean = True
+#
+#     def make_dirty(self):
+#         self.clean = False
+#
+#     def make_clean(self):
+#         self.clean = True
 
-class shirt:
+""" You Can Change an Outfit, But You Can't Change Your Words """
 
-    def __init__(self):
-        self.clean = True
+# create a closet full of clothes
+closet = ['shirt','hat','pants','jacket','socks']
+print(closet)
+print(id(closet))
 
-    def make_dirty(self):
-        self.clean = False
+# remove a hat
 
-    def make_clean(self):
-        self.clean = True
+closet.remove('hat')
+print(closet)
+print(id(closet))
+
+# create a poor choice of words
+words = "You're wearing that"
+print(words)
+print(id(words))
+
+# add more to the phrase
+words = words + ' because you look great!'
+print(words)
+print(id(words))
