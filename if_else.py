@@ -12,3 +12,4 @@ elif 'meat' in diet_restrictions:
 
 else:
     print('Get something else.')
+  
